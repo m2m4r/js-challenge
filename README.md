@@ -49,7 +49,8 @@ Función encargada de obtener de los Productos.
 
 ```javascript
 const loadData = () => {
-  getData(API);
+  const page= localstorage.getItem('pagination')
+  getData(`${API}?offset=10&limit=10`);
 };
 ```
 

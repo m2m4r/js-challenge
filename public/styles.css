@@ -46,6 +46,14 @@ body {
   justify-content: space-between;
 }
 
+.message{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
